@@ -7,7 +7,7 @@ Incluye flujos gratuitos, semi-automatizados y con conectores premium, listos pa
 | Archivo | Descripción |
 |--------|-------------|
 | `readme.md` | Listado de ideas clasificadas por uso gratuito y premium, con detalles técnicos. |
-| `flows/` | (Opcional) Flujos exportados de Power Automate en formato `.zip` para importar. |
+| `flows/` | Flujos exportados de Power Automate en formato `.zip` para importar. |
 | `scripts/` | Scripts PowerShell de apoyo para automatizaciones locales o AD. |
 | `diagrams/` | Diagramas de arquitectura de los flujos más complejos. |
 ---
