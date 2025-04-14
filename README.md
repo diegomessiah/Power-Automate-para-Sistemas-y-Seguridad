@@ -1,75 +1,82 @@
-# 🚀 Power-Automate-para-Sistemas-y-Seguridad
-Este repositorio contiene una recopilación de ideas prácticas y documentadas para automatizar tareas de **administración de sistemas** y **seguridad informática** usando **Power Automate**.
+# Power Automate for IT Administration and Security Automation
 
-Incluye flujos gratuitos, semi-automatizados y con conectores premium, listos para inspirarte o adaptar a tu entorno.
----
-## 📂 Contenido
-| Archivo | Descripción |
-|--------|-------------|
-| `readme.md` | Listado de ideas clasificadas por uso gratuito y premium, con detalles técnicos. |
-| `flows/` | Flujos exportados de Power Automate en formato `.zip` para importar. |
-| `scripts/` | Scripts PowerShell de apoyo para automatizaciones locales o AD. |
-| `diagrams/` | Diagramas de arquitectura de los flujos más complejos. |
----
+## Description
+This repository is a collection of practical and documented ideas, workflows, and templates for automating system administration and cybersecurity tasks using **Power Automate**.
 
-## ⚙️ Requisitos
-
-### Gratuitos
-- Power Automate Free o plan incluido con Microsoft 365
-- Outlook, OneDrive, Excel, SharePoint
-- PowerShell (local o remoto)
-
-### Premium
-- Power Automate Plan 1 o 2, o Microsoft 365 E3/E5
-- Acceso a conectores premium (SQL Server, HTTP, ServiceNow, Defender, etc.)
-- AI Builder (opcional)
+Power Automate enables IT administrators and security professionals to create workflows and automate repetitive tasks across Microsoft 365, Windows, and other platforms. This repository aims to streamline operations and enhance security.
 
 ---
 
-## 📌 Ejemplos incluidos
-
-- Reinicio automático de servicios de Windows
-- Alertas por carpetas compartidas modificadas
-- Bloqueo de usuario comprometido desde formulario
-- Reporte automático de uso de disco
-- Automatización de análisis de phishing en Outlook
-- Integración con SQL y ServiceNow (premium)
-
----
-
-## 🛠️ Cómo usar
-
-1. Clona este repositorio:
-```bash
-git clone https://github.com/diegomessiah/Power-Automate-para-Sistemas-y-Seguridad.git
-```
-
-2. Abre Power Automate (https://make.powerautomate.com)
-
-3. Importa los flujos desde `flows/` (si están disponibles)
-
-4. Personaliza scripts PowerShell de `scripts/` según tu entorno
-
-5. Crea conexiones necesarias (OneDrive, Outlook, Excel, etc.)
+## Features
+- 📂 **Categorized Ideas**:
+  - System Administration
+  - Cybersecurity
+  - User Management
+  - Compliance and Reporting
+- 📝 **Step-by-Step Documentation**:
+  - Includes detailed guides for setting up and customizing each workflow.
+- 🔄 **Reusable Templates**:
+  - Pre-built workflows that you can import directly into Power Automate.
 
 ---
 
-## 🤝 Contribuciones
+## Automation Categories
 
-¿Tienes ideas nuevas o mejoras? ¡Haz un fork, agrega tu flujo o script, y abre un Pull Request! También puedes abrir un Issue con sugerencias.
+### 1. **System Administration**
+- **Monitor Disk Space Usage**:
+  - Get alerts in Microsoft Teams when disk space on a server exceeds a certain threshold.
+- **Automated User Onboarding**:
+  - Create new users in Microsoft 365 and assign licenses automatically.
+
+### 2. **Cybersecurity**
+- **Phishing Email Alerts**:
+  - Automatically notify the security team when a phishing email is reported by users.
+- **Failed Login Attempts Tracker**:
+  - Log failed login attempts across the organization and send alerts.
+
+### 3. **User Management**
+- **Password Expiry Notifications**:
+  - Notify users to update their passwords before they expire.
+
+### 4. **Compliance and Reporting**
+- **Audit Log Automation**:
+  - Extract audit logs from Microsoft 365 and send them to a compliance team.
+- **Secure Score Monitoring**:
+  - Automatically pull Microsoft Secure Score data and generate weekly reports.
 
 ---
 
-## 📄 Licencia
+## Getting Started
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/diegomessiah/power-automate-it-automation.git
+   cd power-automate-it-automation
+   ```
 
-Este proyecto está bajo la licencia MIT. Puedes usarlo libremente para fines personales, educativos o empresariales.
+2. Browse the folders to find workflows categorized by functionality:
+   - `/System-Administration`
+   - `/Cybersecurity`
+   - `/User-Management`
+   - `/Compliance-and-Reporting`
+
+3. Follow the step-by-step guides in each folder to implement the workflows.
+
+4. Import `.zip` templates directly into Power Automate:
+   - Navigate to **Power Automate > My Flows > Import**.
+   - Upload the template and customize it as needed.
 
 ---
 
-## ✉️ Contacto
-
-¿Preguntas o necesitas ayuda para adaptar un flujo? Puedes abrir un Issue o escribirme directamente en GitHub.
+## Contributions
+Contributions are welcome! If you have ideas for workflows or automation scripts, feel free to submit a pull request or open an issue.
 
 ---
 
-> Hecho con 💻, café ☕ y Power Automate por profesionales de TI para profesionales de TI.
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Author
+**Diego Messiah**
+- GitHub: [diegomessiah](https://github.com/diegomessiah)
